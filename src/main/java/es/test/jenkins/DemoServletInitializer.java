@@ -9,4 +9,3 @@ public class DemoServletInitializer extends SpringBootServletInitializer {
 	return builder.sources(DemoApplication.class);
     }
 }
-
