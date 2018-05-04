@@ -37,47 +37,12 @@
 	</dependencies>
 	
 	<build>
-	
-	
-	
-	
 		<plugins>
-		
-		<plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		
-  <!--   <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-            <mainClass>es.test.jenkins.DemoApplication</mainClass> 
-        </configuration>
-    </plugin>
-    <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-            <fork>true</fork>
-            <executable>C:\Program Files\Java\jre1.8.0_161\bin\javaws</executable>
-        </configuration>
-    </plugin>
-
-	
-		<plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <fork>true</fork>
-                    <executable>C:\Program Files\Java\jre1.8.0_161\bin\javaws</executable>
-                </configuration>
-            </plugin>
-      -->	
-            
 		</plugins>
 	</build>
-	
 
 </project>
